@@ -12,7 +12,16 @@
 - node.jsのパッケージマネージャの1つ
     - npmとyarnがある
 
+### リファクタリング
+- HTML,SCSS編集した
+- `yarn run build`実行してmain.css作成した
+- webページ確認
+    - リストの色違う
+    - menuの色と位置おかしい
+    - 全体的にサイズずれてる
+
 ### BEM記法とは
+- 参考:https://www.youtube.com/watch?v=QCJ1THnyAec
 - Block,Element,Modifierの頭文字
 - HTML,CSSのクラス名の命名規則
 - block,elementは親子関係のようなもの

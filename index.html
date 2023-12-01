@@ -1,64 +1,75 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Portfolio｜風景写真家「SNAPPERS」</title>
-<link href="main.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio｜風景写真家「SNAPPERS」</title>
+    <link href="main.css" rel="stylesheet">
 </head>
-<body id="portfolio">
-  <!-- header始まり -->
-  <header>
-    <nav>
-      <ul class="global-nav">
-        <li><a href="">menu1</a></li>
-        <li><a href="">menu2</a></li>
-        <li><a href="">menu3</a></li>
-      </ul>
-    </nav>
-  </header>
-  <!-- header終わり -->
-  <div class="test"></div>
-  <!-- wrap始まり -->
-  <div id="wrap" class="clearfix">
-    <div class="content">
-      <div class="main">
-        <h1>Section1</h1>
-        <p>ほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげ</p>
-        <section>
-          <h2><a href=""><img src="portfolio-photo.jpg" alt="PHOTOGRAPH"></a></h2>
-          <p>
-            ふがふがふがふがふがふがふがふがふがふがふがふがふがふがふがふがふがふが
-            ふがふがふがふがふがふがふがふがふがふがふがふがふがふがふがふがふがふが
-            <a href="">詳しくみる ≫</a>
-          </p>
-        </section>
-        <section>
-          <h2><a href="" ><img src="portfolio-video.jpg" alt="VIDEO"></a></h2>
-          <p>
-            ほげふがほげふがほげふがほげふがほげふがほげふがほげふがほげふがほげふがほげふが
-            ほげふがほげふほげふがほげふがほげふがほげふがほげふがほげふがほげふがほげふが
-            <a href="">詳しくみる ≫</a>
-          </p>
-        </section>
-      </div>
-      <aside class="sidebar">
-        <section>
-          <h2>Sidebar</h2>
-          <ul>
-            <li><a href="">リスト1</a></li>
-            <li><a href="">リスト2</a></li>
-            <li><a href="">りスト3</a></li>
-          </ul>
-        </section>
-      </aside>
+<body class="portfolio">
+    <!-- header始まり -->
+    <header class="header">
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#" class="navigation__link">menu1</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link">menu2</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link">menu3</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- header終わり -->
+    
+    <div class="test"></div>
+    
+    <!-- wrap始まり -->
+    <div class="wrapper clearfix">
+        <div class="content">
+            <div class="main-content">
+                <h1 class="main-content__title">Section1</h1>
+                <p class="main-content__text">ほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげ</p>
+                <section class="main-content__section">
+                    <h2 class="main-content__section--title">
+                        <a href="#" class="main-content__section--link">
+                            <img src="portfolio-photo.jpg" alt="PHOTOGRAPH" class="main-content__section--image">
+                        </a>
+                    </h2>
+                    <p class="main-content__section--text">
+                        ふがふがふがふがふがふがふがふがふがふがふがふがふがふがふがふがふがふが
+                        ふがふがふがふがふがふがふがふがふがふがふがふがふがふがふがふがふがふが
+                        <a href="#" class="main-content__section--link-more">詳しくみる ≫</a>
+                    </p>
+                </section>
+                <section class="main-content__section">
+                    <h2 class="main-content__section--title">
+                        <a href="#" class="main-content__section--link">
+                            <img src="portfolio-video.jpg" alt="VIDEO" class="main-content__section--image">
+                        </a>
+                    </h2>
+                    <p class="main-content__section--text">
+                        ほげふがほげふがほげふがほげふがほげふがほげふがほげふがほげふがほげふが
+                        ほげふがほげふほげふがほげふがほげふがほげふがほげふがほげふがほげふが
+                        <a href="#" class="main-content__section--link-more">詳しくみる ≫</a>
+                    </p>
+                </section>
+            </div>
+            <aside class="sidebar">
+                <section class="sidebar__section">
+                    <h2 class="sidebar__section--title">Sidebar</h2>
+                    <ul class="sidebar__section--list">
+                        <li class="sidebar-section--item"><a href="#" class="sideba__section-link">リスト1</a></li>
+                        <li class="sidebar-section--item"><a href="#" class="sidebar__section--link">リスト2</a></li>
+                        <li class="sidebar-section--item"><a href="#" class="sidebar__section--link">リスト3</a></li>
+                    </ul>
+                </section>
+            </aside>
+        </div>
     </div>
-  </div>
-  <!-- wrap終わり -->
-  <!-- footer始まり -->
-  <footer>
-    <small>(C)2020 Nextbeat</small>
-  </footer>
-  <!-- footer終わり -->
+    <!-- wrap終わり -->
+    
+    <!-- footer始まり -->
+    <footer class="footer">
+        <small class="footer__copyright">(C)2020 Nextbeat</small>
+    </footer>
+    <!-- footer終わり -->
 </body>
 </html>
