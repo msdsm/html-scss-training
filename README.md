@@ -7,11 +7,6 @@
 - あとで14.15.0にした
 ### scssのビルド
 - yarnコマンド叩いた
-## 自分用メモ
-### yarnとは
-- node.jsのパッケージマネージャの1つ
-    - npmとyarnがある
-
 ### リファクタリング
 - HTML,SCSS編集した
 - `yarn run build`実行してmain.css作成した
@@ -19,6 +14,12 @@
     - リストの色違う
     - menuの色と位置おかしい
     - 全体的にサイズずれてる
+## 自分用メモ
+### yarnとは
+- node.jsのパッケージマネージャの1つ
+    - npmとyarnがある
+
+
 
 ### BEM記法とは
 - 参考:https://www.youtube.com/watch?v=QCJ1THnyAec
