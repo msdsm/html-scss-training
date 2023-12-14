@@ -1,4 +1,19 @@
 @charset "utf-8";
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc;
+    color: #333333;
+    font-size: 15px;
+    line-height: 2;
+    position:    relative;
+  }
+  ul { margin: 0; padding: 0; }
+  a { color: #3583aa; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  /************** ここまではコピペOKです ****************/
+
+
 .portfolio{
     background-image: url(./bg-portfolio.jpg);
     background-repeat: no-repeat;
@@ -7,21 +22,7 @@
     background-size: 100% auto;
 }
 
-.navigation{
-    &__list{
-        float: left;
-        margin: 0 20px;
-        font-size: 20px;
-        list-style: none;
-        font-family: 'Bitter', serif;
-    }
-    &__link{
-        color: #ffffff;
-    }
-    &:hover{
-        text-decoration: underline; 
-    }
-}
+
 
 .header {
     width: 960px;
@@ -29,29 +30,26 @@
     margin: 0 auto;
 }
 
-.navigation {
-    list-style: none;
-    margin: 0;
-    padding: 0;
 
-    &__list {
-        margin: 0;
-        padding: 0;
+.navigation{
+    &__list{
+        float: right;
+        margin-top: 60px;
     }
-
-    &__item {
-        display: inline-block;
-        margin-right: 20px;
+    &__item{
+        float: left;
+        margin: 0 20px;
+        font-size: 20px;
+        list-style: none;
+        font-family: 'Bitter', serif;   
     }
-
-    &__link {
-        color: #333333;
-
-        &:hover {
-            border-bottom: 2px solid #ffffff;
-            padding-bottom: 3px;
-            text-decoration: none;
-        }
+    &__link{
+        color: #ffffff;
+    }
+    &:hover{
+        border-bottom: 2px solid #ffffff;
+        padding-bottom: 3px;
+        text-decoration: none; 
     }
 }
 
@@ -101,12 +99,9 @@
             font-size: 24px;
         }
 
-        &--link {
+        &--link{
             color: #3583aa;
             text-decoration: none;
-        }
-        &:hover {
-            text-decoration: underline;
         }
 
         &--image {
@@ -114,12 +109,7 @@
                 opacity: 0.8;
             }
         }
-
-        &--text {
-            font-size: 16px;
-            margin-top: 15px;
-        }
-
+        
         &--link-more {
             color: #3583aa;
             text-decoration: none; 
@@ -140,13 +130,15 @@
 
     &__section {
         &--title {
+            font-family: 'Bitter', serif;
+            font-size: 24px;
             margin-bottom: 10px;
         }
         &--list {
             font-size: 16px;
             margin-left: 20px;            
         }
-        &__link {
+        &--link {
             color: #333333;
         }
     }
